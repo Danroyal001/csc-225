@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+    color: #fff;
+}
+
+.intro {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro>h2.intro-text {
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.image-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+}
+
+.image-grid>img {
+    width: 33%;
+    height: auto;
+    padding: 5px;
+}
